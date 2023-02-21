@@ -1,3 +1,4 @@
+--------------------------------------------------------------------
 Processore Intel® Core™ i3-10100F
     Segmento verticale Desktop
     Numero del processore: i3-10100F
