@@ -11,18 +11,18 @@ Processore Intel® Core™ i3-10100F
     Cache: 6 MB Intel® Smart Cache
 -------------------------------------------------------------------
 SSD
-    Marca:	‎Kingston
-    Fattore di forma:	‎2,5 pollici
-    Dimensioni:	‎480 GB
+    Marca:	Kingston
+    Fattore di forma:	2,5 pollici
+    Dimensioni:	480 GB
     Interfaccia: SATA 3.0
 -------------------------------------------------------------------
 Scheda madre
     Marchio	:Gigabyte
-    Modello: ‎H410M H V3
+    Modello: H410M H V3
     Socket CPU:	LGA 1200
     Tecnologia memoria RAM:	DDR4
-    Memoria massima supportata:	‎32 GB
-    Fattore di forma: ‎Micro ATX
+    Memoria massima supportata:	32 GB
+    Fattore di forma: Micro ATX
 -------------------------------------------------------------------
 Ram
     Modello: HyperX FURY Black
@@ -44,13 +44,13 @@ Scheda video
 -------------------------------------------------------------------
 Alimentatore
     Marca: Thermaltake
-    Produttore:	‎RAGATEX SL - PES Child - Consumer Electronics
-    Serie:	‎Smart RGB
-    Wattaggio:	‎600 watt
+    Produttore:	RAGATEX SL - PES Child - Consumer Electronics
+    Serie:	Smart RGB
+    Wattaggio:	600 watt
 -------------------------------------------------------------------
 Case
-    Marca:	‎EMPIRE GAMING
-    Produttore:	‎EMPIRE GAMING
-    Modello:	‎OE-CA-11RE
+    Marca:	EMPIRE GAMING
+    Produttore:	EMPIRE GAMING
+    Modello:	OE-CA-11RE
     Formato: ATX
-    Interfaccia Hardware: ‎VGA, USB 3.0, USB 2.0
+    Interfaccia Hardware: VGA, USB 3.0, USB 2.0
