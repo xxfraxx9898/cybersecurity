@@ -1,0 +1,26 @@
+Il modello ISO/OSI è utilizzato come riferimento teorico. 
+Si basa su una pila di 7 livelli, anche detti "layer", in cui ogni layer serve il livello superiore ed ha dei protocolli esclusivi.
+Il livello di Data Link del modello ISO/OSI è il secondo livello del modello e si occupa di fornire un servizio di trasmissione affidabile dei dati attraverso il collegamento fisico tra due nodi di una rete.
+
+L’ IEEE ( Institute of Electronic and Electrical Engineers ), l’ ente che si occupa degli standars
+di rete, ed in particolare del livello 1 e della parte dell’accesso al supporto del livello 2, ha
+creato una suddivisione in due parti del livello 2:
+
+Protocollo HDLC (High Level Data Link Control): protocollo utilizzato per il livello dei  Data Link.
+
+Protocollo PPP (Point to point protocol):  utilizzato nel livello data link per le connessioni a internet.
+
+Protocollo LLC (Logical link control):  è un protocollo appartenente alla famiglia IEEE 802.
+
+
+Protocollo HDLC
+E’ un protocollo di linea utilizzato nelle reti geografiche WAN, che prevede una connessione bilanciata (quando sono due stazioni) con trasmissione full-duplex a doppio verso di comunicazione;
+Prevede una connessione sbilanciata (quando abbiamo una stazione primaria e più secondarie) ed una trasmissione half duplex.
+
+Protocollo punto-punto di internet (PPP)
+Viene utilizzato per connettere dispositivi di rete quali Bridge e Router soprattutto nelle reti WAN; è molto simile al protocollo HDLC, la differenza è che questo protocollo è orientato al byte.
+Il campo “protocollo” all’interno del frame PPP, è fondamentale poiché permette di riconoscere, quale protocollo di livello superiore ha generato il pacchetto presente nel campo “informazione”, 
+così da essere in grado di risalire alle informazioni originariamente generate e trattare il frame in modo opportuno.
+
+Protocollo LLC IEEE 802.2
+E’ una variante semplificata del protocollo HDLC ma per le reti locali, mentre quest’ultimo si appoggia direttamente sullo strato fisico, LLC si appoggia sul MAC (sottolivello inferiore del Data Link).
