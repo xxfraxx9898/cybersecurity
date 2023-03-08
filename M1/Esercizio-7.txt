@@ -1,0 +1,29 @@
+Un'azienda sta cercando di inviare un file di grandi dimensioni da un computer all'altro attraverso
+una rete.
+Utilizzando il modello ISO/OSI, descrivi i passaggi che il file deve attraversare per essere trasferito
+correttamente.
+
+Livello Applicazione = Questo livello interagisce direttamente con le applicazioni utilizzate dall'utente, fornendo servizi di interfaccia per gli applicativi e 
+supporto per l'accesso delle reti. Tra i protocolli pià noti del livello applicativo troviamo http, https, dns e ftp.
+Per questo esercizio l'applicazione del computer mittente richiede la trasmissione del file al computer destinatario.
+
+Livello di presentazione =  Il livello 6 si occupa della preparazione dei dati in transito tra due host prima di essere presentati agli utenti.
+Per questo esercizio i dati del file vengono convertiti in un formato standard per la trasmissione.
+
+Livello di sessione = è il livello mediante il quale gli utenti possono stabilire dei collegamenti logici o sessioni di lavoro che consentono il corretto trasferimento di informazioni. In particolare, in questo livello vengono definite le regole per aprire e chiudere una connessione logica. Il compito principale e' quindi quello di coordinare il dialogo tra utenti basandosi sul servizio offerto dal livello di trasporto. In pratica, lo strato di sessione apre una connessione logica tra il nodo e la rete.
+Per questo esercizio Viene stabilita una connessione tra il computer mittente e il computer destinatario.
+
+Livello di trasporto = Questo livello serve come elemento di unione tra i livelli applicazione e livelli trasporto.
+In questo punto viene realizzata la connessione logica chiamata end-to-end del canale di trasferimento tra i sistemi che devono comunicare.
+Anche in questo punto bisogna aggiungere delle informazioni precise ai dati. Ad esempio al pacchetto che è già stato ampliato in precedenza con l’header dei livelli applicazione, viene aggiunto un transport header.
+Vengono utilizzati i protocolli di rete standard come TCP o UDP.
+Per questo esercizio utilizziamo il protocollo tcp. I dati del file vengono suddivisi in segmenti e vengono aggiunti ai dati di controllo per garantire la consegna affidabile.
+
+Livello di rete = Livello di rete chiamato (Network Layer). Assieme al livello 3 la trasmissione dei dati raggiunge internet. A questo livello avviene l’indirizzamento logico dei dispositivi, viene assegnato un indirizzo IP univoco. Anche a questo livello vengono aggiunte delle informazioni un network header che comprende le informazioni sul routing e il relativo controllo del flusso dei dati.
+Per questo esercizio i dati vengono suddivisi in pacchetti e indirizzati al computer destinatario attraverso i router di rete.
+
+Livello di collegamento = Chiamato livello di collegamento (Datalink Layer). Tutte le funzioni di identificazione e risoluzione di errori e tutta la parte di controllo del flusso dei dati servono a evitare appunto gli errori di trasmissione.
+Per questo esercizio i pacchetti vengono suddivisi in frame e vengono trasmessi attraverso la rete.
+
+Livello fisico = Livello fisico (Physical Layer), a questo livello avviene la conversione dei bit in un pacchetto in un segnale fisico per il mezzo di trasmissione, tutto questo è possibile solo tramite un filo di rame o in fibra ottica o per via aerea.
+Per questo esercizio  i frame vengono convertiti in segnali elettrici, ottici o radio e trasmessi attraverso il mezzo fisico della rete
